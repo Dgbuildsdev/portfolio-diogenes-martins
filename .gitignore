@@ -1,0 +1,270 @@
+# Dependências
+node_modules/
+/.pnp
+.pnp.js
+
+# Arquivos de build
+/.next/
+/out/
+/build
+/dist
+
+# Arquivos de desenvolvimento
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory usado por ferramentas como istanbul
+coverage
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Cache do ESLint
+.eslintcache
+
+# Cache do Stylelint
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output do 'npm pack'
+*.tgz
+
+# Arquivo de integridade do yarn
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env*.local
+
+# Stores do VS Code workspace
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de configuração pessoais/sensíveis
+config/personal.js
+config/secrets.js
+config/api-keys.js
+
+# Chaves de API e tokens (MUITO IMPORTANTE!)
+**/api-keys.*
+**/secrets.*
+**/tokens.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Arquivos de configuração específicos com dados pessoais
+src/config/emailjs.ts
+src/config/openai.ts
+.env*
+
+# Arquivos de certificados
+*.crt
+*.cer
+*.der
+
+# Arquivos de banco de dados locais
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads e assets temporários
+uploads/
+temp-assets/
+*.tmp-img
+
+# Cache de ferramentas
+.cache/
+.parcel-cache/
+.next/cache/
+
+# Vercel
+.vercel
+
+# Turborepo
+.turbo
+
+# Sentry
+.sentryclirc
+
+# Next.js específicos
+/.next/
+/out/
+
+# Production builds que podem conter dados sensíveis
+/build/
+/dist/
+
+# Storybook build outputs
+/storybook-static
+
+# FTP e deploy configs (podem conter credenciais)
+.ftpconfig
+.deployrc
+deploy.json
+ftp-sync.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Arquivos de monitoramento
+newrelic.js
+newrelic_agent.log
+
+# Testes
+/coverage
+/.nyc_output
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Cypress
+cypress/videos
+cypress/screenshots
+cypress/downloads
+
+# ==============================================
+# ARQUIVOS ESPECÍFICOS DESTE PROJETO
+# ==============================================
+
+# Currículos e documentos pessoais
+public/curriculo-*.pdf
+public/cv-*.pdf
+public/resume-*.pdf
+docs/personal/
+
+# Imagens pessoais que não devem ser públicas
+public/images/personal/
+assets/personal/
+
+# Arquivos de configuração com dados reais
+src/data/personal-info.js
+src/data/contact-real.js
+
+# Backups do projeto
+backup/
+backups/
+*.backup
+
+# Arquivos de deploy com credenciais
+deploy-config.json
+.deployment
+publish-settings.json
+
+# Logs específicos do projeto
+portfolio.log
+error.log
+access.log
+
+# Arquivos temporários do desenvolvimento
+.temp/
+temp/
+sandbox/
+
+# ==============================================
+# MANTER ALGUNS ARQUIVOS IMPORTANTES
+# ==============================================
+
+# Manter arquivos de exemplo e templates
+!src/config/emailjs.example.ts
+!src/config/openai.example.ts
+!.env.example
+!README.md
+!LICENSE
+!CHANGELOG.md
+
+# Manter estrutura de pastas importantes
+!public/.gitkeep
+!src/assets/.gitkeep

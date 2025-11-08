@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Diógenes Martins</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            color: #6b7280;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .contact span {
+            color: #4b5563;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #1e40af;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid #2563eb;
+        }
+        
+        .experience-item h3, .project-item h3 {
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .date, .education-item .date {
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .skill-category h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        
+        .skill-list {
+            list-style: none;
+        }
+        
+        .skill-list li {
+            padding: 3px 0;
+            color: #4b5563;
+        }
+        
+        .skill-list li:before {
+            content: "▸ ";
+            color: #2563eb;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .contact {
+                justify-content: space-between;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DIÓGENES MARTINS</h1>
+        <p>Desenvolvedor Full Stack</p>
+        <div class="contact">
+            <span>📧 dgbuildsdev@gmail.com</span>
+            <span>📱 (34) 9 9886-4609</span>
+            <span>🔗 linkedin.com/in/diogenes-martins-dgbuildsdev/</span>
+            <span>💻 github.com/Dgbuildsdev</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>RESUMO PROFISSIONAL</h2>
+        <p>Desenvolvedor Full Stack apaixonado por tecnologia com sólida experiência em desenvolvimento web moderno. Especializado em React, Node.js, TypeScript e Next.js, com foco em criar soluções inovadoras e eficientes. Comprometido com as melhores práticas de desenvolvimento e sempre em busca de novos desafios e aprendizado contínuo.</p>
+    </div>
+
+    <div class="section">
+        <h2>HABILIDADES TÉCNICAS</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li>React.js & Next.js</li>
+                    <li>TypeScript & JavaScript</li>
+                    <li>Tailwind CSS & Bootstrap</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>Framer Motion</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li>Node.js & Express</li>
+                    <li>PostgreSQL & MongoDB</li>
+                    <li>Sequelize ORM</li>
+                    <li>RESTful APIs</li>
+                    <li>Authentication & JWT</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Ferramentas & DevOps</h3>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>Docker</li>
+                    <li>VS Code</li>
+                    <li>Vercel & Netlify</li>
+                    <li>pnpm & yarn</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>SOFT SKILLS</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <h3>Comunicação & Colaboração</h3>
+                <ul class="skill-list">
+                    <li>Comunicação clara e efetiva</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Apresentação de ideias</li>
+                    <li>Feedback construtivo</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Resolução de Problemas</h3>
+                <ul class="skill-list">
+                    <li>Pensamento analítico</li>
+                    <li>Debugging e troubleshooting</li>
+                    <li>Criatividade em soluções</li>
+                    <li>Tomada de decisão</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Aprendizado & Adaptação</h3>
+                <ul class="skill-list">
+                    <li>Aprendizado contínuo</li>
+                    <li>Adaptabilidade</li>
+                    <li>Autodidatismo</li>
+                    <li>Curiosidade técnica</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Gestão & Organização</h3>
+                <ul class="skill-list">
+                    <li>Gestão de tempo</li>
+                    <li>Organização de tarefas</li>
+                    <li>Atenção aos detalhes</li>
+                    <li>Responsabilidade</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROJETOS DESTACADOS</h2>
+        
+        <div class="project-item">
+            <h3>DevBurger - Sistema de Controle de Pedidos</h3>
+            <p><strong>Tecnologias:</strong> React, Node.js, Express, MongoDB, Bootstrap</p>
+            <p>Desenvolvi um sistema web full-stack completo para controle de pedidos de uma hamburgueria, incluindo interface administrativa, gestão de produtos, controle de estoque e sistema de pedidos em tempo real.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Sistema de Gestão Empresarial</h3>
+            <p><strong>Tecnologias:</strong> React, Next.js, Node.js, PostgreSQL, Docker</p>
+            <p>Sistema completo e eficiente focado em otimizar a gestão de inventário em armazéns, com dashboard administrativo, relatórios detalhados e controle de usuários.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>HSK Tecnologia - Website Corporativo</h3>
+            <p><strong>Tecnologias:</strong> React, Next.js, Tailwind CSS, PostgreSQL</p>
+            <p>Website corporativo moderno e responsivo com foco em apresentar soluções tecnológicas inovadoras, incluindo área administrativa e sistema de contato.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Portfólio Pessoal</h3>
+            <p><strong>Tecnologias:</strong> Next.js, TypeScript, Tailwind CSS, Framer Motion</p>
+            <p>Portfólio pessoal moderno com animações avançadas, seções interativas, sistema de blog e formulário de contato com validação em tempo real.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>FORMAÇÃO</h2>
+        <div class="education-item">
+            <h3>Ciência da Computação</h3>
+            <div class="date">Em andamento</div>
+            <p>Foco em desenvolvimento web, banco de dados, engenharia de software e arquitetura de sistemas.</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>Desenvolvedor Full Stack - Dev Club</h3>
+            <div class="date">Concluído - 2025</div>
+            <p>Formação completa em desenvolvimento full stack, abrangendo frontend, backend e banco de dados. Desenvolvimento de projetos práticos com tecnologias modernas.</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>Desenvolvedor Front End - Dev Club</h3>
+            <div class="date">Concluído - 2024</div>
+            <p>Formação completa em desenvolvimento frontend com foco em React, JavaScript e tecnologias modernas. Desenvolvimento de interfaces interativas e responsivas.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>IDIOMAS</h2>
+        <p><strong>Português:</strong> Nativo | <strong>Inglês:</strong> Básico </p>
+    </div>
+
+    <div class="section">
+        <h2>OBJETIVOS PROFISSIONAIS</h2>
+        <p>Busco oportunidades para aplicar e expandir meus conhecimentos em desenvolvimento full stack, contribuindo para projetos inovadores e trabalhando em equipes colaborativas que valorizam a qualidade técnica e o crescimento profissional contínuo.</p>
+    </div>
+</body>
+</html>

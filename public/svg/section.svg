@@ -1,0 +1,18 @@
+<svg width="500" height="200" viewBox="0 0 500 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <path d="M0,100 Q125,50 250,100 T500,100 L500,200 L0,200 Z" fill="url(#sectionGrad)" opacity="0.6">
+    <animate attributeName="d" 
+      values="M0,100 Q125,50 250,100 T500,100 L500,200 L0,200 Z;
+              M0,100 Q125,70 250,90 T500,120 L500,200 L0,200 Z;
+              M0,100 Q125,50 250,100 T500,100 L500,200 L0,200 Z" 
+      dur="6s" 
+      repeatCount="indefinite"/>
+  </path>
+</svg>
