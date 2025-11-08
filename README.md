@@ -184,7 +184,7 @@ Sou **Diógenes Martins**, desenvolvedor full stack apaixonado por criar soluç�
 
 Estou sempre aberto a novas oportunidades e projetos desafiadores!
 
-- 📧 **Email**: [diogenesmartins.dev@gmail.com](mailto:dgbuildsdev@gmail.com)
+- 📧 **Email**: [dgbuildsdev@gmail.com](mailto:dgbuildsdev@gmail.com)
 - 💼 **LinkedIn**: [linkedin.com/in/diogenes-martins](https://www.linkedin.com/in/diogenes-martins-dgbuildsdev/)
 - 🐱 **GitHub**: [github.com/Dgbuildsdev](https://github.com/Dgbuildsdev)
 - 📱 **WhatsApp**: [+55 34 9 9886-4609](https://wa.me/5534998864609)
@@ -355,8 +355,8 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 📞 Contato
 
 - **Email:** dgbuildsdev@gmail.com
-- **LinkedIn:** [Meu Perfil](https://www.linkedin.com/in/diogenes-martins-dgbuildsdev/)
-- **GitHub:** [Meu GitHub](https://github.com/Dgbuildsdev)
+- **LinkedIn:** [Diógenes Martins](https://www.linkedin.com/in/diogenes-martins-dgbuildsdev/)
+- **GitHub:** [Diógenes Martins](https://github.com/Dgbuildsdev)
 
 ---
 
