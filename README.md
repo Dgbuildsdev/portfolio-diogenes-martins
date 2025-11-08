@@ -17,7 +17,7 @@
 
 Este é meu portfólio pessoal desenvolvido com tecnologias modernas e de ponta. O projeto demonstra minhas habilidades como desenvolvedor full stack, apresentando uma interface elegante, animações avançadas e funcionalidades inovadoras como um assistente IA integrado.
 
-🔗 **[Ver Portfolio Online](https://diogenesmartins.dev)**
+🔗 **[Ver Portfolio Online](https://diogenesmartins.dev.br)**
 
 ---
 
@@ -188,7 +188,7 @@ Estou sempre aberto a novas oportunidades e projetos desafiadores!
 - 💼 **LinkedIn**: [linkedin.com/in/diogenes-martins](https://www.linkedin.com/in/diogenes-martins-dgbuildsdev/)
 - 🐱 **GitHub**: [github.com/Dgbuildsdev](https://github.com/Dgbuildsdev)
 - 📱 **WhatsApp**: [+55 34 9 9886-4609](https://wa.me/5534998864609)
-- 🌐 **Portfolio**: [diogenesmartins.dev](https://diogenesmartins.dev)
+- 🌐 **Portfolio**: [diogenesmartins.dev](https://diogenesmartins.dev.br)
 
 ---
 
