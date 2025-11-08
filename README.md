@@ -355,8 +355,8 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 📞 Contato
 
 - **Email:** dgbuildsdev@gmail.com
-- **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/diogenes-martins-dgbuildsdev/)
-- **GitHub:** [Seu GitHub](https://github.com/Dgbuildsdev)
+- **LinkedIn:** [Meu Perfil](https://www.linkedin.com/in/diogenes-martins-dgbuildsdev/)
+- **GitHub:** [Meu GitHub](https://github.com/Dgbuildsdev)
 
 ---
 
